@@ -1,0 +1,9 @@
+@if(displayNewForm())
+{
+<app-new-task></app-new-task>
+}
+@else{
+<p>This is dashboard</p>
+}
+
+<button (click)="createNewTask()">Create New task</button>
